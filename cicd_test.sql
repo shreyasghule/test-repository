@@ -26,3 +26,6 @@ VALUES
 UPDATE Customers
 SET address = 'Pune'
 WHERE id = 2;
+
+DELETE FROM CUSTOMERS
+where id=1;
