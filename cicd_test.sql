@@ -22,3 +22,7 @@ VALUES
 INSERT INTO Customers(id, name, address, email, phone)
 VALUES
 (3, 'Raj', 'Bihar', 'wert@gmail.com', '12552315');
+
+UPDATE Customers
+SET address = 'Pune'
+WHERE id = 2;
