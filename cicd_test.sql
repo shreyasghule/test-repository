@@ -29,3 +29,7 @@ WHERE id = 2;
 
 DELETE FROM CUSTOMERS
 where id=1;
+
+UPDATE Customers
+SET address = 'Agra'
+WHERE id = 1;
