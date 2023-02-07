@@ -33,3 +33,7 @@ where id=1;
 UPDATE Customers
 SET address = 'Agra'
 WHERE id = 1;
+
+UPDATE Customers
+SET address = 'Pune'
+WHERE id = 3;
